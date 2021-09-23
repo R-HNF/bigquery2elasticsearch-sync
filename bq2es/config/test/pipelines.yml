@@ -1,0 +1,4 @@
+- pipeline.id: bq2es-test
+  path.config: "${BQ2ES}/config/test/bq2es"
+- pipeline.id: check-es-test
+  path.config: "${BQ2ES}/config/test/check-es"

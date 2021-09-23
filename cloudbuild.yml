@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/EXAMPLE-PROJECT/bq2es-sync:', '.' ]
+images: ['gcr.io/EXAMPLE-PROJECT/bq2es-sync']

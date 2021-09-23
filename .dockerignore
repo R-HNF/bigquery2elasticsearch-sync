@@ -1,0 +1,8 @@
+.dockerignore
+cloudbuild.yml
+Dockerfile
+README.md
+
+.devcontainer/
+.git/
+last_run/
